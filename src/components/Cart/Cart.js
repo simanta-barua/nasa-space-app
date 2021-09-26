@@ -15,13 +15,13 @@ const Cart = (props) => {
             <h4><span className="text-dark ">Total Cost: $</span> {total} </h4>
             <hr />
             <ul className="list-group">
-                {cart.map(member => <li className="list-group-item  list-item">{member.name}  key={member.key} <i className="fas fa-times-circle" ></i></li> )
+                {cart.map(member => <li className="list-group-item  list-item">{member.name} <i className="fas fa-times-circle" ></i></li>)
                 }
             </ul>
         </div>
-        
+
     );
-    
+
 };
 
 export default Cart;
