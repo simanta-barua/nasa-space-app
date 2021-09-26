@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Member = (props) => {
-    console.log(props.member);
-    const {name,age,picture,salary: salary,address} = props.member||{};
+    const { name, age, picture, salary, address } = props.member || {};
     return (
         <div>
             <div className="col">
@@ -14,7 +13,9 @@ const Member = (props) => {
                         <p>Salary: ${salary}</p>
                     </div>
                     <div className="card-footer">
-                        <button className="btn btn-primary"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                        <button
+                            onClick={() => props.handleAddMember(props.member)}
+                            className="btn btn-primary"><i class="fas fa-shopping-cart"></i>Add to cart</button>
                     </div>
                 </div>
             </div>
