@@ -7,9 +7,8 @@ const Main = () => {
     // for member 
     const [cart, setCart] = useState([])
     const handleAddMember = (member) => {
-        const newCart = [...cart,member]
+        const newCart = [...cart, member]
         setCart(newCart)
-        console.log(newCart);
 
     }
     useEffect(() => {
@@ -24,13 +23,13 @@ const Main = () => {
                 <div className="col-9">
                     <div className="row row-cols-1 row-cols-md-3 m-1 g-4">
                         {
-                            members.map(member => <Member member={member} key={members.key} handleAddMember={handleAddMember} />)
+                            members.map(member => <Member member={member} key={member.key} handleAddMember={handleAddMember} />)
                         }
                     </div>
                 </div>
                 <div className="col-3">
-                    <Cart 
-                    cart={cart}/>
+                    <Cart
+                        cart={cart} />
                 </div>
             </div>
         </div>

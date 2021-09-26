@@ -20,7 +20,7 @@ const Member = (props) => {
                     <div className="card-footer">
                         <button
                             onClick={() => props.handleAddMember(props.member)}
-                            className="btn btn-primary "><i class="fas fa-user-plus"></i> Hire Now</button>
+                            className="btn btn-primary "><i className="fas fa-user-plus"></i> Hire Now</button>
                     </div>
                 </div>
             </div>
