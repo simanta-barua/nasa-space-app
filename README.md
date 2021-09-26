@@ -8,7 +8,7 @@
 </h1>
 
 <h4 align="center">NASA SPACE APPS PROGRAM</h4>
-<h4 align="center">Live Site:  <a href="https://friendly-feynman-9d3cfc.netlify.app/"></h4>
+<h4 align="center">Live Site:  <a href="https://friendly-feynman-9d3cfc.netlify.app/">Visit</a></h4>
 
 <p align="center">
   <a href="#how-to-use">How To Use</a> •
