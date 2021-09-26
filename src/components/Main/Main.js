@@ -21,7 +21,7 @@ const Main = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-9 border">
+                <div className="col-9">
                     <div className="row row-cols-1 row-cols-md-3 m-1 g-4">
                         {
                             members.map(member => <Member member={member} key={members.key} handleAddMember={handleAddMember} />)

@@ -30,9 +30,9 @@ const Header = () => {
                 </div>
             </nav>
             <div className="banner text-center">
-                <h1>NASA Space Apps Program</h1>
-                <p>Hiring Best Programmer Word Wide</p>
-                <h4>Total Budget 300 Millions USD</h4>
+                <h1>NASA SPACE APPS PROGRAM</h1>
+                <h5 className="text-muted">Hiring Best Programmer Word Wide !!</h5>
+                <h3>Total Budget 300 Millions USD</h3>
             </div>
         </div>
     );

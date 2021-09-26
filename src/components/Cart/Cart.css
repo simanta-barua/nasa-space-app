@@ -1,8 +1,19 @@
 .team-cart {
-  border-radius: 5%;
+  border-radius: 3%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1.25rem;
-  padding: 1.5rem;
+  margin-top: 2rem;
+  padding: 1.2rem;
   font-weight: 600;
   color: rgb(85, 136, 230);
+}
+.fa-times-circle {
+  color: rgba(212, 38, 38, 0.911);
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+
+}
+.list-item{
+    border-radius: 10px !important;
+    margin: 5px;
 }
