@@ -1,4 +1,5 @@
 import React from 'react';
+import './Member.css'
 
 const Member = (props) => {
     const { name, age, picture, salary, address } = props.member || {};
