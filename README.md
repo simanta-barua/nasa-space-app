@@ -1,16 +1,55 @@
-# NASA SPACE APPS PROGRAM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br>
+  <a href="https://friendly-feynman-9d3cfc.netlify.app/"><img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" alt="NASA" width="200"></a>
+  <br>
+  NASA SPACE APPS PROGRAM
+  <br>
+</h1>
 
-## Available Scripts
+<h4 align="center">NASA SPACE APPS PROGRAM</h4>
+<h4 align="center">Live Site:  <a href="https://friendly-feynman-9d3cfc.netlify.app/"></h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> ••
+  <a href="#license">License</a>
+</p>
 
-### `npm start`
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## How To Use
 
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/ProgrammingHeroWC4/the-superhero-direction-simanta-barua.git
+
+# Go into the repository
+$ cd the-superhero-direction-simanta-barua
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+```
+
+
+## Credits
+
+This Website uses the following open source packages:
+
+- [Node.js](https://nodejs.org/)
+- [BootStrap](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/)
+
+
+## License
+
+MIT
+
+---
+Free to use 
